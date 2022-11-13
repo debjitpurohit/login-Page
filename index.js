@@ -11,21 +11,18 @@ app.use(bodyParser.urlencoded({
     extended:true
 }))
 
-<<<<<<< HEAD
+// mongoose.connect('mongodb+srv://debjitpurohit:Debjit8125@clusterdebjit.4n2ytuc.mongodb.net/debjitdata?retryWrites=true&w=majority',{
+// // mongoose.connect('mongodb://localhost:27017/devsemployee',{
+// //     useNewUrlParser: true,
+// //     useUnifiedTopology: true,
+// //     //useCreateIndex: true not use in this version
+// //   }).then(()=>{
+// //     console.log('Connection Successful......');
+// //   }).catch((e)=>{
+// //     console.log('No Connection');
+// //   });
+// //   var db = mongoose.connection;
 mongoose.connect('mongodb+srv://debjitpurohit:Debjit8125@clusterdebjit.4n2ytuc.mongodb.net/debjitdata?retryWrites=true&w=majority',{
-=======
-// mongoose.connect('mongodb://localhost:27017/devsemployee',{
-//     useNewUrlParser: true,
-//     useUnifiedTopology: true,
-//     //useCreateIndex: true not use in this version
-//   }).then(()=>{
-//     console.log('Connection Successful......');
-//   }).catch((e)=>{
-//     console.log('No Connection');
-//   });
-//   var db = mongoose.connection;
-mongoose.connect('mongodb+srv://debjitpurohit:Debjit8125@clusterdebjit.4n2ytuc.mongodb.net/?retryWrites=true&w=majority',{
->>>>>>> 86b4d00629cd5fcb3ca5882d0f79a2cba825f885
     useNewUrlParser: true,
     useUnifiedTopology: true,
     //useCreateIndex: true not use in this version
